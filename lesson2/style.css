@@ -1,0 +1,26 @@
+body{
+    background: url(./img/photo-1618588507085-c79565432917.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    text-align: center;
+}
+.katta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    border: 2px solid green;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    background: url(./img/photo-1471879832106-c7ab9e0cee23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
