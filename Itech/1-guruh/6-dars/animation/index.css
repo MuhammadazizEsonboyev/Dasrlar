@@ -1,0 +1,55 @@
+body{
+    background: url(./img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+
+.img1{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+ 
+}
+
+
+@keyframes earth {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.img_earth{
+    width: 300px;
+    animation: earth 40s infinite linear;
+}
+.kos{
+    display: flex;
+    justify-content: center;
+}
+
+.odam{
+    width: 200px;
+    animation: odam 10s infinite linear;
+}
+
+
+@keyframes odam {
+    25%{
+        width: 100px;
+        left: 35%;
+        
+    }
+
+    50%{
+        width: 200px;
+        transform: translateX(100px);
+    }
+
+    75%{
+        width: 80px;
+        transform: translateY(-300px);
+    }
+}
+

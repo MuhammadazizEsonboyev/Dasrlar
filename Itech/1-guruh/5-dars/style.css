@@ -1,0 +1,53 @@
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+.res{
+    color: rgb(199, 48, 48);
+}/* classlarga nuqta bilan murojat qilamiz */
+
+.web{
+    color: green;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background:red;
+    margin: 20px 20px 20px 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 40px;  ichkari qismimizdan px tashlab beradi*/
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: red;/* orqa qismimizga rang yokli img berish */
+    color: white;
+    text-align: center;/* matinni o'rtaga qoyib beradi */
+    align-items: center;/* tepadan orttaga qoyib beradi */
+    display: flex;/* bir chiziqqa tortib qoyadi */
+    justify-content: center;/* buham o'rtaga qoyib beradi */
+    margin: 20px 20px 20px 20px;/* margin tashqaridan px tashlaydi */
+    transition: .5s;
+}
+
+.box2:hover{
+    border-radius: 50%;
+    background: grey;
+    color: lime;
+}
+
+.ota{
+    width: 800px;
+    height: 400px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

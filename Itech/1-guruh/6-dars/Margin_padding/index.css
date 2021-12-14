@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+
+.text{
+    border: 2px solid red;
+    width: 100%;
+    height: 100px;
+    background: blueviolet;
+    color: white;
+    text-align: center;
+}
+.text2{
+    border: 2px solid red;
+    width: 100%;
+    height: 100px;
+    background: chartreuse;
+    color: black;
+    text-align: center;
+}

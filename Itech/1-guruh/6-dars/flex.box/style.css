@@ -1,0 +1,14 @@
+.flex{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid red;
+}
+
+
+.flex .box{
+    width: 100px;
+    height: 100px;
+    background: green;
+    border: 2px solid blue;
+    margin: 2px;
+}
