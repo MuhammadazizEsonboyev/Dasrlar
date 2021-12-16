@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+/* body{
+    background: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body2{
+    background: url(./img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+body{
+    background: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+a{
+    color: red;
+}
+p{
+    color: white;
+    text-align: start;
+}
+
+.rasmlar{
+    text-align: center;
+}
+
+.rasmlar2{
+ text-align: center;
+}
+
+.videolar{
+    text-align: center;
+   }
+
+   form{
+       width: 400px;
+       height: 120px;
+       margin-top: 10px;
+       border: 2px solid white;
+       text-align: center;
+       margin: 300px auto;
+   }
+
+   input{
+       margin-top: 10px;
+   }
+
+   button{
+       width: 100px;
+   }

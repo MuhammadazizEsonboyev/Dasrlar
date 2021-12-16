@@ -1,10 +1,10 @@
-.flex{
+
+.katta{
     width: 1000px;
     height: 500px;
     border: 2px solid red;
+    margin: auto;
 }
-
-
 .flex .box{
     width: 100px;
     height: 100px;
@@ -12,3 +12,22 @@
     border: 2px solid blue;
     margin: 2px;
 }
+.flex .boxlar1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex1 .boxlar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 284px;
+}
+.flex1 .boxlar2 .box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border: 2px solid green;
+    margin: 2px;
+}
+
